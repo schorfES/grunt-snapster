@@ -1,0 +1,36 @@
+{
+  "name": "grunt-snapster",
+  "description": "A grunt task to get automated snapshots of websites in several browsers using browserstack.",
+  "version": "0.0.1",
+  "author": "Norman Rusch (nrmnrsh / schorfES)",
+  "main": "Gruntfile.js",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schorfES/grunt-snapster.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/schorfES/grunt-snapster/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "merge": "1.1.3"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-jshint": "0.10.0",
+    "grunt-contrib-copy": "0.5.0",
+    "grunt-jscs-checker": "0.6.0",
+    "grunt-lintspaces": "0.5.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "browserstack",
+    "screenshot",
+    "browser"
+  ]
+}
