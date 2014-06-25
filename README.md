@@ -1,7 +1,7 @@
 # grunt-snapster
 
 A grunt task to get automated snapshots of websites in several browsers
-using browserstack.
+using the [Browserstack](http://www.browserstack.com/) service.
 
 ## Getting Started
 _If you haven't used [grunt](http://gruntjs.com/) before, be sure to check out
@@ -22,6 +22,11 @@ grunt.loadNpmTasks('grunt-snapster');
 
 Inside your `grunt.js` file add a section named `snapster`. This section
 specifies the tasks. Each task takes the following options.
+
+## Browserstack
+
+You need a [Browserstack Account](https://www.browserstack.com/users/sign_up).
+There is a free trial version available.
 
 ## Options
 
