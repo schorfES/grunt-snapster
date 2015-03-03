@@ -14,8 +14,10 @@ module.exports = (function() {
 			pathname: '/',
 			ssl: false,
 
-			key: undefined,
-			username: undefined
+			credentials: {
+				key: undefined,
+				username: undefined
+			}
 		},
 
 		Browser = function(options, capabilities) {

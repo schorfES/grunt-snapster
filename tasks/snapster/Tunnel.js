@@ -23,14 +23,14 @@ module.exports = (function() {
 
 	Tunnel.prototype = merge(Tunnel.prototype, {
 		open: function(callback) {
-			if (typeof this._options.key === 'string') {
+			if (typeof this._options.credentials.key === 'string') {
 				var
 					self = this,
 					args = [
 						this._options.credentials.key,
 						this._options.host + ',' +
 						this._options.port + ',' +
-						(this._options.ssl ? '1' : 0)
+						(this._options.ssl ? '1' : '0')
 					]
 				;
 
