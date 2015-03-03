@@ -1,7 +1,7 @@
 {
   "name": "grunt-snapster",
   "description": "A grunt task to get automated snapshots of websites in several browsers using browserstack.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Norman Rusch (nrmnrsh / schorfES)",
   "main": "Gruntfile.js",
   "readmeFilename": "README.md",
