@@ -109,9 +109,9 @@ default the filenames will use this schema:
 ## Example
 
 ```javascript
-snapser: {
+snapster: {
 	credentials: {
-		file: 'snapser.credentials'
+		file: 'snapster.credentials'
 	},
 	tunnel: true,
 	host: 'localhost',
