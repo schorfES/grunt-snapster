@@ -4,6 +4,7 @@ module.exports = function(grunt) {
 	});
 
 	grunt.loadTasks('grunt-tasks');
+	grunt.loadTasks('tasks');
 
 	grunt.registerTask(
 		'default',
